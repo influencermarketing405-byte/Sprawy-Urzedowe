@@ -1,4 +1,4 @@
-# Sprawy-Urzedowe<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
@@ -8,7 +8,7 @@
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background-color: #002f6c; /* deep blue */
+            background-color: #002f6c;
             color: white;
             display: flex;
             justify-content: center;
@@ -24,7 +24,7 @@
 
         h1 {
             font-size: 48px;
-            font-weight: 900; /* bold */
+            font-weight: 900;
             margin-bottom: 30px;
             letter-spacing: 2px;
         }
@@ -32,6 +32,12 @@
         p {
             font-size: 18px;
             margin: 10px 0;
+        }
+
+        .iban {
+            margin-top: 15px;
+            font-size: 18px;
+            font-weight: bold;
         }
 
         .price {
@@ -52,6 +58,11 @@
     <h1>SPRAWY URZĘDOWE</h1>
 
     <p>Wyślij na numer konta kwotę, w jakiej chcesz uzyskać poradę</p>
+
+    <div class="iban">
+        IBAN: DE67100110012901139404<br>
+        BIC: NTSBDEB1XXX
+    </div>
 
     <div class="price">15 min – 25€ (szybka porada)</div>
     <div class="price">30 min – 50€</div>
