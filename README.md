@@ -1,4 +1,9 @@
-
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
         body {
             margin: 0;
             font-family: Arial, sans-serif;
@@ -11,7 +16,9 @@
             text-align: center;
         }
 
-        
+        .container {
+            max-width: 600px;
+            padding: 20px;
         }
 
         h1 {
