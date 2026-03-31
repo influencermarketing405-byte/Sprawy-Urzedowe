@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
@@ -64,7 +64,7 @@
         BIC: NTSBDEB1XXX
     </div>
 
-    <div class="price">15 min – 25€ (szybka porada)</div>
+    <div class="price">15 min – 25€</div>
     <div class="price">30 min – 50€</div>
     <div class="price">60 min – 100€</div>
 
