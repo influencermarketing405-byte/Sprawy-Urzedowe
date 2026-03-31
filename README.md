@@ -16,9 +16,7 @@
             text-align: center;
         }
 
-        .container {
-            max-width: 600px;
-            padding: 20px;
+        
         }
 
         h1 {
