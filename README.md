@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="pl">
 <head>
 <meta charset="UTF-8">
@@ -53,11 +52,6 @@ p {
     margin-top: 25px;
     font-size: 4vw;
     line-height: 1.5;
-}
-
-/* Optional: prevent breaking in key phrase */
-.nowrap {
-    white-space: nowrap;
 }
 </style>
 </head>
