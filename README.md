@@ -19,38 +19,40 @@ body {
 
 .container {
     width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
     padding: 20px;
     box-sizing: border-box;
 }
 
 h1 {
-    font-size: 8vw;
+    font-size: clamp(28px, 6vw, 48px);
     font-weight: 900;
     margin-bottom: 25px;
     letter-spacing: 2px;
 }
 
 p {
-    font-size: 4.5vw;
+    font-size: clamp(16px, 3.5vw, 20px);
     margin: 10px 0;
     line-height: 1.4;
 }
 
 .iban {
     margin-top: 15px;
-    font-size: 4.5vw;
+    font-size: clamp(16px, 3.5vw, 20px);
     font-weight: bold;
     word-break: break-word;
 }
 
 .price {
-    font-size: 5vw;
+    font-size: clamp(18px, 4vw, 24px);
     margin: 12px 0;
 }
 
 .note {
     margin-top: 25px;
-    font-size: 4vw;
+    font-size: clamp(14px, 3vw, 18px);
     line-height: 1.5;
 }
 </style>
